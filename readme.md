@@ -31,4 +31,13 @@ npm i -D vite
 
 #5. Run vite and check it works
 npx vite
+
+#6. add dom package
+dotnet add package Fable.Browser.Dom
+
+#7. change contents of Program.fs
+# done manually
+
+#8. confirm all works ok by running fable in watch mode
+dotnet fable watch --verbose --run npx vite
 ```
