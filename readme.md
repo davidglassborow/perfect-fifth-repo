@@ -52,4 +52,27 @@ dotnet add package PerfectFifth --prerelease
 
 #3. Add p5js dependency - note this installed latest 1.9.3, so manually changed the package.json back to 1.6.0
 npm i --save p5@^1.6.0
+
+#4. Add example display code from https://github.com/mark-gerarts/perfect-fifth?tab=readme-ov-file#display
 ```
+
+On new clone, run the following to make sure all is setup correctly:
+
+```bash
+# Install node_modules from package.json and package-lock.json
+npm install
+
+# Restore tools from .config/dotnet-tools.json
+dotnet tool restore
+
+# Restore dotnet build
+dotnet restore
+
+# Test compile to JS, creates the fable_modules folder
+dotnet fable
+
+# Test vite is working, listens on http://localhost:5173/
+npx vite
+```
+
+Then run in watch mode: `dotnet fable watch --verbose --run npx vite`
