@@ -13,3 +13,10 @@ dotnet tool install fable
 dotnet add package Fable.Core
 dotnet fable
 ```
+
+Javascript install: https://fable.io/docs/getting-started/javascript.html
+
+```bash
+#4. setup npm
+npm init -y
+```
