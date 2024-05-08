@@ -17,12 +17,18 @@ dotnet fable
 Javascript install: https://fable.io/docs/getting-started/javascript.html#browser
 
 ```bash
-#4. setup npm
+#1. setup npm
 npm init -y
 
-#5. Add vite
+#2. Add vite
 npm i -D vite
 
-#6. add vite.config.ts
+#3. add vite.config.ts
 # done manually
+
+#4. add index.html
+# done manually
+
+#5. Run vite and check it works
+npx vite
 ```
