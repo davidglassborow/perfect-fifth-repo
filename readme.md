@@ -14,9 +14,15 @@ dotnet add package Fable.Core
 dotnet fable
 ```
 
-Javascript install: https://fable.io/docs/getting-started/javascript.html
+Javascript install: https://fable.io/docs/getting-started/javascript.html#browser
 
 ```bash
 #4. setup npm
 npm init -y
+
+#5. Add vite
+npm i -D vite
+
+#6. add vite.config.ts
+# done manually
 ```
