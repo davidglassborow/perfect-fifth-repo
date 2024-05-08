@@ -41,3 +41,15 @@ dotnet add package Fable.Browser.Dom
 #8. confirm all works ok by running fable in watch mode
 dotnet fable watch --verbose --run npx vite
 ```
+
+Perfect fifth installation: https://github.com/mark-gerarts/perfect-fifth?tab=readme-ov-file#installation
+
+```bash
+#1. Add the package
+dotnet add package PerfectFifth --prerelease
+
+#2. Starter templates fixes - nothing to do, no longer needed, fable is .net8 already
+
+#3. Add p5js dependency - note this installed latest 1.9.3, so manually changed the package.json back to 1.6.0
+npm i --save p5@^1.6.0
+```
